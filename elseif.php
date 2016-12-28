@@ -5,6 +5,7 @@
 <body>
 <p>
     <a href="home.php">home</a>
+    <br>
     <?php
     $myage = 19;
     print "Drinks you can buy at the age of " . $myage . ":";
