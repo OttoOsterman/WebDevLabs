@@ -11,9 +11,9 @@
 
     echo 5 * 7;
 
-    $myname = "</br>Bilbo Baggins";
+    $myname = "Bilbo Baggins";
     $myage = 111;
-    echo "My name is" . $myname . "and I am " . $myage;
+    echo "My name is " . $myname . " and I am " . $myage . " years old.";
     ?>
 </p>
 </body>
