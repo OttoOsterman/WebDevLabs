@@ -8,19 +8,19 @@
     <br>
     <?php
     include 'navbar.php';
-    $numberOfHobbits = 2;
-    switch ($numberOfHobbits) {
-        case 1:
-            echo "1 sad hobbit";
+    $wantedgood = "Beer";
+    switch ($wantedgood) {
+        case $wantedgood = "Energy Drink":
+            echo "You have to be 15 to buy " . $wantedgood . ".";
             break;
-        case 2:
-            echo "2 happy hobbits";
+        case $wantedgood = "Beer":
+            echo "You have to be 18 to buy " . $wantedgood . ".";
             break;
-        case 3:
-            echo "3 hobbits are a crowd";
+        case $wantedgood = "Spirits":
+            echo "You have to be 21 to buy " . $wantedgood . ".";
             break;
         default:
-            echo "All the hobbits have gone home";
+            echo "You're too young to buy anything!";
     }
     ?>
 </p>

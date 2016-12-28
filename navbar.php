@@ -10,6 +10,8 @@
     echo "<a href='elseif.php'>Else If</a>";
 
     echo "<a href='switch.php'>Switch</a>";
+
+    echo "<a href='arrays.php'>Arrays</a>";
     ?>
 </p>
 </body>
