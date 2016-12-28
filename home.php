@@ -4,9 +4,9 @@
 </head>
 <body>
 <p>
-<a href="elseif.php">else if</a>
     <br>
     <?php
+    include 'navbar.php';
     echo "Hello World</br>";
     echo "Hello, world!</br>";
     echo "Hello," . " " . "world" . "!";

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 </head>
 <body>
 <p>
-    <a href="home.php">home</a>
     <br>
     <?php
-    $myage = 19;
-    print "Drinks you can buy at the age of " . $myage . ":";
+    include 'navbar.php';
+    $myage = 21;
+    print "</br>Drinks you can buy at the age of " . $myage . ":";
     if ($myage < 15) {
         print "</br>You're not allowed to buy anything!";
     }
