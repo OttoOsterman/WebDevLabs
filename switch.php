@@ -20,7 +20,7 @@
             echo "You have to be 21 to buy Spirits";
             break;
         default:
-            echo "You're too young to buy anything!";
+            echo "Enter a valid drink!";
     }
     ?>
 </p>
