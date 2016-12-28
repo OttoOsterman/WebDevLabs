@@ -11,13 +11,13 @@
     if ($myage < 15) {
         print "</br>You're not allowed to buy anything!";
     }
-    else if ($myage >= 15) {
+    if ($myage >= 15) {
         print "</br>You are allowed to buy energy drink!";
     }
-    else if ($myage >= 18) {
+    if ($myage >= 18) {
         print "</br>You are allowed to buy beer!";
     }
-    else if ($myage >= 21)
+    if ($myage >= 21)
         print "</br>You are allowed to buy spirits!"
     ?>
 </p>
