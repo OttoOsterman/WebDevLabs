@@ -4,6 +4,7 @@
 </head>
 <body>
 <p>
+<a href="elseif.php">else if</a>
     <?php
     echo "Hello World</br>";
     echo "Hello, world!</br>";
@@ -13,10 +14,10 @@
 
     $myname = "Bilbo Baggins";
     $myage = 111;
-    echo "My name is " . $myname . " and I am " . $myage . " years old.";
+    echo "</br>My name is " . $myname . " and I am " . $myage . " years old.";
 
     $name = "Edgar";
-    if ($name == "Simon") {
+    if ($name == "Edgar") {
         print "</br>I know you!";
     }
     else {
