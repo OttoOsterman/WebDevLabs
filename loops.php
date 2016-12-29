@@ -13,10 +13,10 @@
         if ($i % 2 == 0) {
             echo "<br><p>Energy Drinks available</p>";
         }
-        if ($i % 3 == 0) {
+        else if ($i % 3 == 0) {
             echo "<br><p>Beer available</p>";
         }
-        if ($i % 4 == 0) {
+        else if ($i % 4 == 0) {
             echo "<br><p>Spirits available</p>";
         }
         else if ((($i%2==0) && ($i%3==0) && ($i%4==0)) == false) {
