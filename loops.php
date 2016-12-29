@@ -9,16 +9,17 @@
     include 'navbar.php';
 
     for ($i = 1; $i < 30; $i++) {
+        print "Day " . $i;
         if ($i % 2 == 0) {
-            print "Day: " . $i . "Energy Drinks available";
+            print $i . ": Energy Drinks available";
             echo "<br>";
         }
         if ($i % 3 == 0) {
-            print "Day: " . $i . "Beer available";
+            print $i . ": Beer available";
             echo "<br>";
         }
         if ($i % 4 == 0) {
-            print "Day: " . $i . "Spirits available";
+            print $i . ": Spirits available";
             echo "<br>";
         }
     }
