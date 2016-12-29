@@ -12,6 +12,8 @@
     echo "<a href='switch.php'>Switch</a>";
 
     echo "<a href='arrays.php'>Arrays</a>";
+
+    echo "<a href='loops.php'>Loops</a>";
     ?>
 </p>
 </body>
