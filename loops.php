@@ -11,16 +11,16 @@
     for ($i = 1; $i < 30; $i++) {
         print "Day " . $i;
         if ($i % 2 == 0) {
-            print ": Energy Drinks available";
-            echo "<br>";
+            echo "<br><p>Energy Drinks available</p>";
         }
         if ($i % 3 == 0) {
-            print ": Beer available";
-            echo "<br>";
+            echo "<br><p>Beer available</p>";
         }
         if ($i % 4 == 0) {
-            print ": Spirits available";
-            echo "<br>";
+            echo "<br><p>Spirits available</p>";
+        }
+        else {
+            echo "<br><p>No drinks available</p>";
         }
     }
     ?>
