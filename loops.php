@@ -19,7 +19,7 @@
         if ($i % 4 == 0) {
             echo "<br><p>Spirits available</p>";
         }
-        else {
+        if ($i % 1 == 0){
             echo "<br><p>No drinks available</p>";
         }
     }
