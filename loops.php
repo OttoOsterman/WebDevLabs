@@ -8,32 +8,20 @@
     <?php
     include 'navbar.php';
 
-//    $drinks = array("Energy Drink", "Beer", "Spirits");
-//
-//    foreach($drinks as $x) {
-//        print "<p>$x</p>";
-//    }
-
-    for ($i = 1; $i < 30; $i++)
-    {
+    for ($i = 1; $i < 30; $i++) {
         if ($i % 2 == 0) {
-            echo "<p>Day: </p>";
-            print $i;
+            print "Day: " . $i;
             echo "<p>Energy Drinks available</p>";
         }
+        if ($i % 3 == 0) {
+            print "Day: " . $i;
+            echo "<p>Beer available</p>";
+        }
+        if ($i % 4 == 0) {
+            print "Day: " . $i;
+            echo "<p>Spirits available</p>";
+        }
     }
-
-//    for ($i = 1; $i < 30; $i++)
-//    {
-//        print $i;
-//        echo "<p>Beer available</p>";
-//    }
-//
-//    for ($i = 1; $i < 30; $i++)
-//    {
-//        print $i;
-//        echo "<p>Spirits available</p>";
-//    }
     ?>
 </p>
 </body>
