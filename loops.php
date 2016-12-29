@@ -19,7 +19,8 @@
         if ($i % 4 == 0) {
             echo "<br><p>Spirits available</p>";
         }
-        if ((($i%2==0) && ($i%3==0) && ($i%4==0)) == false) {
+//        if ((($i%2==0) && ($i%3==0) && ($i%4==0)) == false) {
+        else {
             echo "<br><p>No drinks available</p>";
         }
     }
