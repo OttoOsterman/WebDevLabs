@@ -14,19 +14,19 @@
 //        print "<p>$x</p>";
 //    }
 
-    for ($i = 2; $i < 30; $i++)
+    for ($i = 2; $i < 30; ($i+2))
     {
         print $i;
         echo "<p>Energy Drinks available</p>";
     }
 
-    for ($i = 3; $i < 30; $i++)
+    for ($i = 3; $i < 30; ($i+3))
     {
         print $i;
         echo "<p>Beer available</p>";
     }
 
-    for ($i = 4; $i < 30; $i++)
+    for ($i = 4; $i < 30; ($i+4))
     {
         print $i;
         echo "<p>Spirits available</p>";
